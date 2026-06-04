@@ -1,8 +1,8 @@
 import discord
 from discord.ext import commands
 from utils.data_manager import initialize_files 
-from views.ticket_panel import TicketPanelView
-from views.ticket_control import TicketControlView
+from views.ticket_panel import TicketPanelViews
+from views.ticket_control import TicketControlViews
 
 class TicketKingBot(commands.Bot):
     def __init__(self):
