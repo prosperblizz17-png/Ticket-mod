@@ -1,4 +1,4 @@
-import discord
+"import discord
 from discord.ext import commands
 from utils.data_manager import initialize_files
 from views.ticket_panel import TicketPanelView
@@ -45,5 +45,5 @@ async def on_app_command_error(interaction: discord.Interaction, error: discord.
 
 if __name__ == "__main__":
     # Insert token here
-    bot.run("YOUR_DISCORD_BOT_TOKEN_HERE")
+    bot.run(TOKEN)
 
