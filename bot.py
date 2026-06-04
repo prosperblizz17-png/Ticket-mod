@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-from utils.data_manager import initialize_utils
+from utils.data_manager import initialize_files
 from views.ticket_panel import TicketPanelView
 from views.ticket_control import TicketControlView
 
