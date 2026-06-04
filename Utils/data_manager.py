@@ -4,7 +4,7 @@ import json
 CONFIG_PATH = "data/config.json"
 TICKETS_PATH = "data/tickets.json"
 
-def initialize_files():
+def initialize_files(utils):
     os.makedirs("data", exist_ok=True)
     if not os.path.exists(CONFIG_PATH):
         with open(CONFIG_PATH, "w") as f:
