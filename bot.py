@@ -49,7 +49,7 @@ if __name__ == "__main__":
     # Fetch the token securely from the system environment variables
     token = os.getenv("TOKEN")
     
-    if not token:
+    if not TOKEN:
         raise ValueError("❌ Error: 'TOKEN' environment variable is missing!")
         
     bot.run(TOKEN)
