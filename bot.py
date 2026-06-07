@@ -46,7 +46,7 @@ async def on_app_command_error(interaction: discord.Interaction, error: discord.
             await interaction.response.send_message("⚠️ Server core internal operational pipeline fault error encountered.", ephemeral=True)
 
 if __name__ == "__main__":
-    # Fetch the token securely from the system environment variables
+    # Fetch the TOKEN securely from the system environment variables
     token = os.getenv("TOKEN")
     
     if not TOKEN:
