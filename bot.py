@@ -15,7 +15,7 @@ class TicketKingBot(commands.Bot):
 
     async def setup_hook(self):
         # Initialize JSON storage structures
-        initialize_files(utils)
+        initialize_files()
 
         # Connect UI listeners to memory for persistent runtime capabilities
         self.add_view(TicketPanelView())
