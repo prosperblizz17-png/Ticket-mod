@@ -47,7 +47,7 @@ async def on_app_command_error(interaction: discord.Interaction, error: discord.
 
 if __name__ == "__main__":
     # Fetch the TOKEN securely from the system environment variables
-    token = os.getenv("TOKEN")
+    TOKEN = os.getenv("TOKEN")
     
     if not TOKEN:
         raise ValueError("❌ Error: 'TOKEN' environment variable is missing!")
